@@ -5,11 +5,12 @@ Functional tests
 from selenium import webdriver
 import unittest
 
+
 class NewVisitorTest(unittest.TestCase):
-    
+
     def setUp(self):
-        self.browser = webdriver.FireFox()
-    
+        self.browser = webdriver.Firefox()
+
     def tearDown(self):
         self.browser.quit()
 
@@ -30,7 +31,7 @@ class NewVisitorTest(unittest.TestCase):
 # When he hits enter, the page updates, and now the page lists
 # "1: Buy peacock feathers" as an item in a to-do list
 
-# There is still a text box inviting him to add another item.  Hi
+# There is still a text box inviting him to add another item.  He
 # enters "use peacock feathers to make a fly" (Evan is very methodical)
 
 # The page updates again, and now shows both items on his list
