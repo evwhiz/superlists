@@ -24,7 +24,6 @@ class NewVisitorTest(unittest.TestCase):
         self.fail('Finish the test!')
         # He is invited to enter a to-do item staight away
 
-
 # He types "Buy peacock feathers" into a text box (Evan's hobby
 # is tying fly-fishing lures)
 
@@ -43,6 +42,7 @@ class NewVisitorTest(unittest.TestCase):
 # He visits that URL - his to-do list is still there.
 
 # Satisfied, he goes back to sleep
+
 
 if __name__ == '__main__':
     unittest.main(warnings='ignore')
